@@ -1,0 +1,6 @@
+DROP DATABASE IF EXISTS employeeCMS_DB;
+CREATE DATABASE employeeCMS_DB;
+
+USE employeeCMS_DB;
+
+CREATE TABLE department ( )
