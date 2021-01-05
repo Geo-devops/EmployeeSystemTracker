@@ -3,4 +3,22 @@ CREATE DATABASE employeeCMS_DB;
 
 USE employeeCMS_DB;
 
-CREATE TABLE department ( )
+CREATE TABLE department ( 
+    department_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR (30) NOT NULL 
+);
+
+CREATE TABLE role (
+    role_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+    title VARCHAR (30) NOT NULL,
+    salary DECIMAL, AUTO_INCREMENT 
+    department_id INT, 
+);
+
+CREATE TABLE employee (
+    employee_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR (30) NOT NULL,
+    last_name VARCHAR (30 NOT NULL, 
+    role_id INT 
+    manager_id INT,
+    );
