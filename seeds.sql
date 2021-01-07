@@ -1,9 +1,3 @@
-INSERT INTO department(name) VALUES('Marketing');
-INSERT INTO department(name) VALUES('Human Resource');
-INSERT INTO department(name) VALUES('Management');
-INSERT INTO department(name) VALUES('Sales');
-
-
 INSERT INTO role(title, salary, department_id) VALUES ('Director of Sales', 80000, 3);
 INSERT INTO role(title, salary, department_id) VALUES ('Marketing', 65000, 1);
 INSERT INTO role(title, salary, department_id) VALUES ('Outside Sales', 120000, 4);
@@ -21,6 +15,9 @@ INSERT INTO employee(first_name, last_name, employee_id) VALUES ("Ken", "Gronk",
 INSERT INTO employee(first_name, last_name, employee_id) VALUES ("River", "Rose", 75009);
 INSERT INTO employee(first_name, last_name, employee_id) VALUES ("Coleman", "Brady", 75010);
 
-
+INSERT INTO department(name) VALUES('Marketing');
+INSERT INTO department(name) VALUES('Human Resource');
+INSERT INTO department(name) VALUES('Management');
+INSERT INTO department(name) VALUES('Sales');
 
 
