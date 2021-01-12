@@ -13,5 +13,10 @@ class DB {
     findAllDepartments(){
         return this.connection.query('SELECT * FROM department')
     }
+    findAllRoleId(){
+        return this.connection.query('SELECT * FROM RoleID')
+        
+    }
+    
 }
 module.exports = new DB(connection)

@@ -16,7 +16,7 @@ function intialPrompt() {
         choices: [
             'View All Employees',
             'View All Departments',
-            'View All Roles',
+            'View All RoleId',
 
             'Add employee',
             'Add role',
@@ -34,7 +34,9 @@ function intialPrompt() {
                 case "View All Departments":
                     viewAllDepartments();
                     break;
-
+                    case "View All Role ID's":
+                        viewAllRoleId();
+                        break;
                 // case 2:
                 //     day = "Tuesday";
                 //     break;
@@ -66,6 +68,17 @@ function viewAllDepartments() {
         intialPrompt()
         
         printTable(dbData)
+    })
+}
+
+// I cannot get this one to work!//// Everything works above 
+function viewAllRoleId() {
+    DB.findAllRoleId().then(function(dbData) {
+        intialPrompt()
+        
+
+        printTable(dbData)
+        
     })
 }
 

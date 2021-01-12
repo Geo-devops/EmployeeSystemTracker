@@ -1,5 +1,5 @@
-INSERT INTO role(title, salary, department_id) VALUES ('Director of Sales', 80000, 3);
-INSERT INTO role(title, salary, department_id) VALUES ('Marketing', 65000, 1);
+INSERT INTO role_id(title, salary, department_id) VALUES ('Director of Sales', 80000, 3);
+INSERT INTO role_id(title, salary, department_id) VALUES ('Marketing', 65000, 1);
 INSERT INTO role(title, salary, department_id) VALUES ('Outside Sales', 120000, 4);
 INSERT INTO role(title, salary, department_id) VALUES ('Recruiter', 65000, 2);
 INSERT INTO role(title, salary, department_id) VALUES ('Inside Sales', 74000, 4);
